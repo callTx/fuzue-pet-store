@@ -13,10 +13,10 @@ const SubmenuCategory = () => {
   const selectedCategory = menuItems.filter(
     (item) => item.category === category
   );
-  const subCategories = selectedCategory[0]?.productsGroup?.map((item) => ({
-    title: item.title,
-    icon: item.icon,
-  }));
+  // const subCategories = selectedCategory[0]?.productsGroup?.map((item) => ({
+  //   title: item.title,
+  //   icon: item.icon,
+  // }));
   function onClickHandler(subCategory: string) {
     if (selectedCategory[0].category) {
       router.push(`/${selectedCategory[0].category}/${subCategory}`);
