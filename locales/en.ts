@@ -75,7 +75,7 @@ const en: { [key: string]: string } = {
   belt: "Belt",
   men: "Men's Fashion",
   child: "Child's Fashion",
-  toys: "Toys and Baby",
+  toys: "Alimento Úmido",
   cosmetic: "Cosmetic",
   home: "Furniture and kitchen",
   sport: "Sport and Trip",
