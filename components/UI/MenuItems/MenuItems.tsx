@@ -31,11 +31,14 @@ const MenuItems: React.FC<Props> = (props) => {
   const ArrowDirection = locale === "en" ? HiChevronRight : HiChevronLeft;
 
   function onMenuItemClickHandler(
-    productsGroup: IDropDown[] | undefined,
+    // productsGroup: IDropDown[] | undefined,
     category: string,
     index: number
   ) {
-    props.onClick && props.onClick(productsGroup, category, index);
+    props.onClick && props.onClick(
+      // productsGroup, 
+      category, 
+      index);
     width >= 768 && dispatch(megaMenuActions.closeMegaMenu());
   }
 
@@ -71,15 +74,11 @@ const MenuItems: React.FC<Props> = (props) => {
               >
                 <item.icon className="w-6 h-6 " />
                 <div
-                  className={`mx-4 grow ${
-                    !item.productsGroup ? "text-gray-400 font-normal" : ""
-                  }`}
+                  className={`mx-4 grow text-gray-400 font-normal`}
                 >
                   {t[item.category]}
                 </div>
-                {item.productsGroup ? (
-                  <ArrowDirection style={{ fontSize: "1rem" }} />
-                ) : null}
+                
               </div>
             ) : (
               <Link href={`/${item.category}`}>
@@ -106,15 +105,11 @@ const MenuItems: React.FC<Props> = (props) => {
                 >
                   <item.icon className="w-6 h-6 " />
                   <div
-                    className={`mx-4 grow ${
-                      !item.productsGroup ? "text-gray-400 font-normal" : ""
-                    }`}
+                    className={`mx-4 grow text-gray-400 font-normal `}
                   >
                     {t[item.category]}
                   </div>
-                  {item.productsGroup ? (
-                    <ArrowDirection style={{ fontSize: "1rem" }} />
-                  ) : null}
+                  
                 </a>
               </Link>
             )}
