@@ -36,8 +36,8 @@ const Home: NextPage<{ products: IProduct[] }> = ({ products }) => {
     <div>
       <Carousel />
       {/* <Benefits /> */}
-      <Offers />
-      <Category />
+      {/* <Offers /> */}
+      {/* <Category /> */}
       <Newest />
       <Banners />
       <Brands />
