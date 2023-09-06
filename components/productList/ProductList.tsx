@@ -42,7 +42,6 @@ const ProductList: React.FC<Props> = ({ productList }) => {
   return (
     <div>
       <Breadcrumb />
-      <SubmenuCategory />
       <div className="w-full xl:max-w-[2100px] mx-auto">
         {isInNewestProductsPage && productList.length ? (
           <div className="grid gap-4 md:gap-2 grid-cols-6 md:grid-cols-12">
