@@ -40,7 +40,7 @@ const Home: NextPage<{ products: IProduct[] }> = ({ products }) => {
       {/* <Category /> */}
       <Newest />
       <Banners />
-      <Brands />
+      {/* <Brands /> */}
     </div>
   );
 };
