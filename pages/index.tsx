@@ -35,7 +35,7 @@ const Home: NextPage<{ products: IProduct[] }> = ({ products }) => {
   return (
     <div>
       <Carousel />
-      <Benefits />
+      {/* <Benefits /> */}
       <Offers />
       <Category />
       <Newest />
