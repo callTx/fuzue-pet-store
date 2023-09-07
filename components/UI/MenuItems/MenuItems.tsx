@@ -68,11 +68,10 @@ const MenuItems: React.FC<Props> = (props) => {
                     index
                   )
                 }
-                // onMouseOver={() =>
-                //   props.onMouseOver?.( 
-                //     index, item.category
-                //     )
-                // }
+                onMouseOver={() =>
+                  props.onMouseOver?.( 
+                    index, item.category)
+                }
               >
                 <item.icon className="w-6 h-6 " />
                 <div
