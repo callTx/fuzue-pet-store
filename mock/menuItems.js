@@ -12,12 +12,12 @@ import { GiLargeDress } from "react-icons/gi";
 import { FaBaby, FaRedhat } from "react-icons/fa";
 
 const menuItems = [
-  { category: "Outros", icon: BsBook, productsGroup: [{title: "", icon: "", subtitles: [""]}] },
-  { category: "toys", icon: MdOutlineToys },
+  { category: "alimentoUmido", icon: MdOutlineToys },
   { category: "cosmetic", icon: RiHeartPulseLine },
   { category: "home", icon: AiOutlineHome },
   { category: "sport", icon: BiFootball },
   { category: "stationery", icon: BsBook },
+  { category: "outros", icon: BsBook, productsGroup: [{title: "", icon: "", subtitles: [""]}] }
 ];
 
 // const menuItems = [
