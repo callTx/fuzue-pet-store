@@ -98,11 +98,14 @@ import { FaBaby, FaRedhat } from "react-icons/fa";
 // ];
 
 const menuItems = [
-  { category: "toys", icon: MdOutlineToys, productsGroup: [{title: "", icon: "", subtitles: [""]}]},
-  { category: "cosmetic", icon: RiHeartPulseLine, productsGroup: [{title: "", icon: "",subtitles: [""]}] },
-  { category: "home", icon: AiOutlineHome, productsGroup: [{title: "", icon: "", subtitles: [""]}] },
-  { category: "sport", icon: BiFootball, productsGroup: [{title: "", icon: "", subtitles: [""]}] },
-  { category: "stationery", icon: BsBook, productsGroup: [{title: "", icon: "", subtitles: [""]}] },
+  { category: "Alimento Úmido", icon: MdOutlineToys},
+  { category: "Petiscos Naturais", icon: RiHeartPulseLine  },
+  { category: "Comedouros", icon: AiOutlineHome  },
+  { category: "Tapete para Alimentação", icon: BiFootball },
+  { category: "Brinquedos e Mordedores", icon: BsBook  },
+  { category: "Pelúcia", icon: BsBook  },
+  { category: "KONG", icon: BsBook  },
+  { category: "Outros", icon: BsBook, productsGroup: [{title: "", icon: "", subtitles: [""]}] },
 ];
 
 export default menuItems;
