@@ -35,11 +35,10 @@ const MenuItems: React.FC<Props> = (props) => {
     category: string,
     index: number
   ) {
-    props.onClick && 
-    // props.onClick(
-    //   // productsGroup, 
-    //   category, 
-    //   index);
+    props.onClick && props.onClick(
+      // productsGroup, 
+      category, 
+      index);
     width >= 768 && dispatch(megaMenuActions.closeMegaMenu());
   }
 
