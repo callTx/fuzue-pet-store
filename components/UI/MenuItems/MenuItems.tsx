@@ -58,15 +58,13 @@ const MenuItems: React.FC<Props> = (props) => {
                 }`}
                 onClick={() =>
                   onMenuItemClickHandler(
-                    // item.productsGroup,
+                    item.productsGroup,
                     item.category,
                     index
                   )
                 }
                 onMouseOver={() =>
-                  props.onMouseOver?.(
-                    // item.productsGroup, 
-                    index, item.category)
+                  props.onMouseOver?.(item.productsGroup, index, item.category)
                 }
               >
                 <item.icon className="w-6 h-6 " />
@@ -91,14 +89,14 @@ const MenuItems: React.FC<Props> = (props) => {
                   }`}
                   onClick={() =>
                     onMenuItemClickHandler(
-                      // item.productsGroup,
+                      item.productsGroup,
                       item.category,
                       index
                     )
                   }
                   onMouseOver={() =>
                     props.onMouseOver?.(
-                      // item.productsGroup,
+                      item.productsGroup,
                       index,
                       item.category
                     )
