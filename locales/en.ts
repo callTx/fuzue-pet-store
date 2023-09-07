@@ -174,7 +174,7 @@ const en: { [key: string]: string } = {
   yourEmail: "Please Enter Your Email",
   register: "Register",
   copyRight:
-    "© 2022 ZiShop. All rights reserved - Designed and Developed with ",
+    "© 2023 Fuzuê Pet Store. Todos os direitos reservados.",
   sort: "Sort based on: ",
   all: "All",
   newestProducts: "Newest",
