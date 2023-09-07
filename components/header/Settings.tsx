@@ -23,7 +23,7 @@ const Settings = () => {
 
   return (
     <div className="relative md:hidden flex justify-between items-center z-[150]">
-      <div onClick={toggleShowSettingBox}>
+      {/* <div onClick={toggleShowSettingBox}>
         <AiOutlineSetting style={{ fontSize: "1.5rem" }} />
       </div>
       {isSettingBoxOpen ? (
@@ -38,7 +38,7 @@ const Settings = () => {
             <Theme />
           </div>
         </>
-      ) : null}
+      ) : null} */}
     </div>
   );
 };

@@ -74,7 +74,7 @@ const SideNavSide = () => {
                   onClick={closeSidebar}
                 >
                   <BackArrow style={{ fontSize: "1.5rem" }} />
-                  <h3 className="ltr:ml-2 rtl:mr-2 py-1">{t.mainMenu}</h3>
+                  <h3 className="ltr:ml-2 rtl:mr-2 py-1">{t.menuPrincipal}</h3>
                 </div>
 
                 <hr className="mb-6" />

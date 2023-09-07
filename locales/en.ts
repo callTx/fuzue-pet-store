@@ -24,6 +24,7 @@ const en: { [key: string]: string } = {
   offer: "Offers and Discounts",
   bestSells: "The Best-Sells",
   mainMenu: "Main Menu",
+  menuPrincipal: "Início",
   language: "Language: ",
   fa: "فارسی - Fa",
   en: "English - En",
