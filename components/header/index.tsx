@@ -34,13 +34,13 @@ const index = () => {
           <div className="hidden md:block">
             <Logo />
           </div>
-          <div className="flex-grow">
+          {/* <div className="flex-grow">
             <SearchBar />
-          </div>
-          <div className="ltr:ml-2 rtl:mr-2 sm:ltr:ml-4 sm:rtl:mr-4 flex items-center justify-between ">
+          </div> */}
+          {/* <div className="ltr:ml-2 rtl:mr-2 sm:ltr:ml-4 sm:rtl:mr-4 flex items-center justify-between ">
             <UserBox />
             <CartIcon />
-          </div>
+          </div> */}
         </div>
       </div>
     </header>
