@@ -35,8 +35,7 @@ const MenuItems: React.FC<Props> = (props) => {
     category: string,
     index: number
   ) {
-    props.onClick 
-    //&& 
+    props.onClick && 
     // props.onClick(
     //   // productsGroup, 
     //   category, 
@@ -69,7 +68,8 @@ const MenuItems: React.FC<Props> = (props) => {
                   )
                 }
                 onMouseOver={() =>
-                  props.onMouseOver?.( 
+                  props.onMouseOver?.(
+                    // item.productsGroup, 
                     index, item.category)
                 }
               >
