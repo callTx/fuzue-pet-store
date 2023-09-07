@@ -23,7 +23,7 @@ const SideNavContent = () => {
   };
   return (
     <div className="absolute w-full">
-      <div className="flex flex-col mt-3 pt-3 ltr:px-5 rtl:px-5 cursor-pointer">
+      {/* <div className="flex flex-col mt-3 pt-3 ltr:px-5 rtl:px-5 cursor-pointer">
         {extraMenu.map((menuItem) => {
           return (
             <div
@@ -38,7 +38,7 @@ const SideNavContent = () => {
           );
         })}
         <hr className="mt-6 mb-4 border-gray-200" />
-      </div>
+      </div> */}
       <h2 className="font-bold text-lg py-3 ltr:px-5 rtl:px-5">
         {t.CategoryOfGoods}
       </h2>
