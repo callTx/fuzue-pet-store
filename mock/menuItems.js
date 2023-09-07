@@ -91,7 +91,7 @@ const menuItems = [
   //     },
   //   ],
   // },
-  { category: "alimentoUmido", icon: PiBowlFoodDuotone },
+  { category: "toys", icon: PiBowlFoodDuotone },
   { category: "cosmetic", icon: RiHeartPulseLine },
   { category: "home", icon: AiOutlineHome },
   { category: "sport", icon: BiFootball },
