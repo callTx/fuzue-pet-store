@@ -74,7 +74,7 @@ const SubMenu: React.FC<Props> = ({ subMenuItems }) => {
           </>
         ) : (
           <p className="text-sm text-palette-mute absolute top-[45%] ltr:left-[30%] rtl:right-[30%]">
-            {t.noProduct}
+            {t.semProdutos}
           </p>
         )}
       </div>
