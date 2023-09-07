@@ -41,4 +41,11 @@ export const categorySmContent = [
     categoryTitle: "stationeryCategoryTitle",
     href: "/stationery",
   },
+  {
+    bgc: "toyCategory",
+    imgSrc: "toy-category.webp",
+    categoryTitle: "stationeryCategoryTitle",
+    href: "/alimentoUmido",
+  },
+  
 ];
