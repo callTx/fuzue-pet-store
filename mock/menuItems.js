@@ -98,16 +98,6 @@ import { FaBaby, FaRedhat } from "react-icons/fa";
 // ];
 
 const menuItems = [
-  {
-    category: null,
-    icon: null,
-    productsGroup: null,
-  },
-  {
-    category: null,
-    icon: null,
-    productsGroup: null,
-  },
   { category: "toys", icon: MdOutlineToys },
   { category: "cosmetic", icon: RiHeartPulseLine },
   { category: "home", icon: AiOutlineHome },
