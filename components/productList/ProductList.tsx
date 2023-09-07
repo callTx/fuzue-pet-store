@@ -65,7 +65,7 @@ const ProductList: React.FC<Props> = ({ productList }) => {
             </div>
           </div>
         ) : (
-          <p className="text-palette-mute text-center mt-8">{t.noProduct}</p>
+          <p className="text-palette-mute text-center mt-8">{t.semProdutos}</p>
         )}
       </div>
     </div>
