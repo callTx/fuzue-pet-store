@@ -10,7 +10,7 @@ import { FiMonitor, FiHeadphones } from "react-icons/fi";
 
 import { GiLargeDress } from "react-icons/gi";
 import { FaBaby, FaRedhat } from "react-icons/fa";
-import {GiOpenedFoodCan} from 'react-icons/gi';
+import {GiOpenedFoodCan, GiCrystalBars} from 'react-icons/gi';
 
 // const menuItems = [
 //   {
@@ -100,7 +100,7 @@ import {GiOpenedFoodCan} from 'react-icons/gi';
 
 const menuItems = [
   { category: "alimentoUmido", icon: GiOpenedFoodCan },
-  { category: "petiscosNaturais", icon: RiHeartPulseLine },
+  { category: "petiscosNaturais", icon: GiCrystalBars },
   { category: "comedouros", icon: AiOutlineHome },
   { category: "tapetesParaAlimentacao", icon: BiFootball },
   { category: "brinquedosEMordedores", icon: BsBook },
