@@ -124,7 +124,7 @@ const en: { [key: string]: string } = {
   specialSale: "Special Sale",
   descontos: "Descontos",
   seeAllNewProducts: "See All New Products",
-  vejaTodosOsNovosProdutos: "Veja Todos os Novos Produtos"
+  vejaTodosOsNovosProdutos: "Veja Todos os Novos Produtos",
   digitalCategoryTitle: "Digital Products",
   digitalCategoryDescription:
     "We offer the newest products at the most competitive prices",
