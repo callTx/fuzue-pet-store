@@ -29,7 +29,7 @@ const SubMenu: React.FC<Props> = ({ subMenuItems }) => {
                 className="block rtl:ml-4 lrt:mr-4 text-[16px] "
                 onClick={() => dispatch(megaMenuActions.closeMegaMenu())}
               >
-                {t.seeAllProduct}
+                {t.vejaTodosOsProdutos}
               </a>
             </Link>
             <ArrowDirection style={{ fontSize: "1rem", color: "inherit" }} />

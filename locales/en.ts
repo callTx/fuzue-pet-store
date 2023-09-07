@@ -20,6 +20,7 @@ const en: { [key: string]: string } = {
   categoriaDeProdutos: "Categoria de Produtos",
   categories: "Categories",
   seeAllProduct: "See All product in this category",
+  vejaTodosOsProdutos: "Produtos desta categoria",
   offer: "Offers and Discounts",
   bestSells: "The Best-Sells",
   mainMenu: "Main Menu",

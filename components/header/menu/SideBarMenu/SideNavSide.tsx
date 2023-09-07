@@ -86,7 +86,7 @@ const SideNavSide = () => {
                         className="font-bold ltr:ml-6 rtl:mr-6"
                         onClick={closeNavbar}
                       >
-                        {t.seeAllProduct}
+                        {t.vejaTodosOsProdutos}
                       </div>
                       {locale === "en" ? (
                         <HiChevronRight style={{ fontSize: "1.5rem" }} />
