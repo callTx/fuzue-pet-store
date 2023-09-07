@@ -98,7 +98,7 @@ import { FaBaby, FaRedhat } from "react-icons/fa";
 // ];
 
 const menuItems = [
-  { category: "Alimento Úmido", icon: MdOutlineToys},
+  { category: "AlimentoÚmido", icon: MdOutlineToys},
   { category: "Petiscos Naturais", icon: RiHeartPulseLine  },
   { category: "Comedouros", icon: AiOutlineHome  },
   { category: "Tapete para Alimentação", icon: BiFootball },
