@@ -174,7 +174,7 @@ const en: { [key: string]: string } = {
   orderSubmissionProcedure: "Order Submission Procedure",
   paymentMethods: "Payment Methods",
   beWithUs: "Be With Us!",
-  sigaNosNasRedesSociais: "Siga-nos nas Redes Sociais!",
+  sigaNosNasRedesSociais: "Siga-nos nas redes sociais!",
   emailRegister: "Stay up to date with the latest discounts by emailing us",
   yourEmail: "Please Enter Your Email",
   register: "Register",
