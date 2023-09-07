@@ -1,7 +1,7 @@
 import { BsLaptop, BsBook } from "react-icons/bs";
 import { IoShirtOutline, IoShirtSharp } from "react-icons/io5";
 import { MdOutlineToys } from "react-icons/md";
-import { RiHeartPulseLine, RiFireLine } from "react-icons/ri";
+import { RiHeartPulseLine, RiFireLine, RiBearSmileFill} from "react-icons/ri";
 import { AiOutlineHome, AiOutlinePercentage } from "react-icons/ai";
 import { BiFootball } from "react-icons/bi";
 
@@ -10,8 +10,8 @@ import { FiMonitor, FiHeadphones } from "react-icons/fi";
 
 import { GiLargeDress } from "react-icons/gi";
 import { FaBaby, FaRedhat } from "react-icons/fa";
-import {GiOpenedFoodCan, GiCrystalBars, GiDogBowl, GiPaperTray} from 'react-icons/gi';
-
+import {GiOpenedFoodCan, GiCrystalBars, GiDogBowl, GiPaperTray, GiJumpingDog, GiPerfumeBottle} from 'react-icons/gi';
+import {MdMoreHoriz} from 'react-icons/md';
 // const menuItems = [
 //   {
 //     category: "digital",
@@ -103,10 +103,10 @@ const menuItems = [
   { category: "petiscosNaturais", icon: GiCrystalBars },
   { category: "comedouros", icon: GiDogBowl },
   { category: "tapetesParaAlimentacao", icon: GiPaperTray },
-  { category: "brinquedosEMordedores", icon: BsBook },
-  { category: "pelucias", icon: MdOutlineToys },
-  { category: "kongs", icon: MdOutlineToys },
-  { category: "outros", icon: BsBook, productsGroup: [{title: "", icon: "", subtitles: [""]}] }
+  { category: "brinquedosEMordedores", icon: GiJumpingDog },
+  { category: "pelucias", icon: RiBearSmileFill },
+  { category: "kongs", icon: GiPerfumeBottle },
+  { category: "outros", icon: MdMoreHoriz, productsGroup: [{title: "", icon: "", subtitles: [""]}] }
 ];
 
 export default menuItems;
