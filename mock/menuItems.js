@@ -98,11 +98,11 @@ import { FaBaby, FaRedhat } from "react-icons/fa";
 // ];
 
 const menuItems = [
-  { category: "toys", icon: MdOutlineToys, productsGroup: []},
-  { category: "cosmetic", icon: RiHeartPulseLine, productsGroup: [] },
-  { category: "home", icon: AiOutlineHome, productsGroup: [] },
-  { category: "sport", icon: BiFootball, productsGroup: [] },
-  { category: "stationery", icon: BsBook, productsGroup: [] },
+  { category: "toys", icon: MdOutlineToys, productsGroup: [{title: "", icon: ""}]},
+  { category: "cosmetic", icon: RiHeartPulseLine, productsGroup: [{title: "", icon: ""}] },
+  { category: "home", icon: AiOutlineHome, productsGroup: [{title: "", icon: ""}] },
+  { category: "sport", icon: BiFootball, productsGroup: [{title: "", icon: ""}] },
+  { category: "stationery", icon: BsBook, productsGroup: [{title: "", icon: ""}] },
 ];
 
 export default menuItems;
