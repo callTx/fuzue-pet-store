@@ -98,11 +98,11 @@ import { FaBaby, FaRedhat } from "react-icons/fa";
 // ];
 
 const menuItems = [
-  { category: "toys", icon: MdOutlineToys, productsGroup: [{title: "", icon: "", subtitles: ""}]},
-  { category: "cosmetic", icon: RiHeartPulseLine, productsGroup: [{title: "", icon: "",subtitles: ""}] },
-  { category: "home", icon: AiOutlineHome, productsGroup: [{title: "", icon: "", subtitles: ""}] },
-  { category: "sport", icon: BiFootball, productsGroup: [{title: "", icon: "", subtitles: ""}] },
-  { category: "stationery", icon: BsBook, productsGroup: [{title: "", icon: "", subtitles: ""}] },
+  { category: "toys", icon: MdOutlineToys, productsGroup: [{title: "", icon: "", subtitles: [""]}]},
+  { category: "cosmetic", icon: RiHeartPulseLine, productsGroup: [{title: "", icon: "",subtitles: [""]}] },
+  { category: "home", icon: AiOutlineHome, productsGroup: [{title: "", icon: "", subtitles: [""]}] },
+  { category: "sport", icon: BiFootball, productsGroup: [{title: "", icon: "", subtitles: [""]}] },
+  { category: "stationery", icon: BsBook, productsGroup: [{title: "", icon: "", subtitles: [""]}] },
 ];
 
 export default menuItems;
