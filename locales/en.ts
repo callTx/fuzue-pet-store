@@ -119,8 +119,10 @@ const en: { [key: string]: string } = {
   return: "commodity-back guarantee",
   offers: "Special Offers",
   newest: "Newest Goods",
+  favoritos: "Favoritos",
   seeAll: "See All",
   specialSale: "Special Sale",
+  descontos: "Descontos",
   seeAllNewProducts: "See All New Products",
   digitalCategoryTitle: "Digital Products",
   digitalCategoryDescription:
