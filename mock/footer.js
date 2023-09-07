@@ -3,60 +3,18 @@ import { AiFillInstagram } from "react-icons/ai";
 
 export const footerContent = [
   {
-    title: "zishopMap",
+    title: "fuzueSobre",
     subtitles: [
       {
-        text: "aboutUs",
-        href: "/about",
+        text: "duvidas",
+        href: "/duvidas",
       },
       {
-        text: "contactUs",
-        href: "/blank",
-      },
-      {
-        text: "saleInZishop",
-        href: "/blank",
-      },
-      {
-        text: "careerOpportunities",
-        href: "/blank",
-      },
+        text: "contato",
+        href: "/contato",
+      }
     ],
-  },
-  {
-    title: "customerServices",
-    subtitles: [
-      {
-        text: "commonQuestions",
-        href: "/blank",
-      },
-      {
-        text: "returnProcedures",
-        href: "/blank",
-      },
-      {
-        text: "privacy",
-        href: "/blank",
-      },
-    ],
-  },
-  {
-    title: "shoppingGuide",
-    subtitles: [
-      {
-        text: "howToPlaceAnOrder",
-        href: "/blank",
-      },
-      {
-        text: "orderSubmissionProcedure",
-        href: "/blank",
-      },
-      {
-        text: "paymentMethods",
-        href: "/blank",
-      },
-    ],
-  },
+  }
 ];
 
 export const socialMedia = [

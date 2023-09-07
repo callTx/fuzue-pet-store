@@ -9,7 +9,7 @@ const SocialPart = () => {
   return (
     <div className="mt-8 rtl:md:mt-0 ltr:xl:mt-0 rtl:lg:mr-12 ltr:xl:ml-12  ltr:2xl:ml-48">
       <div>
-        <h2 className="text-md sm:text-lg">{t.beWithUs}</h2>
+        <h2 className="text-md sm:text-lg">{t.sigaNosNasRedesSociais}</h2>
         <div className="flex mt-3">
           {socialMedia.map((SocialItem) => {
             return (
@@ -30,7 +30,7 @@ const SocialPart = () => {
           })}
         </div>
       </div>
-      <div className="mt-6">
+      {/* <div className="mt-6">
         <h2 className="text-md sm:text-lg">{t.emailRegister}</h2>
         <form
           className="flex items-center flex-wrap sm:flex-nowrap mt-4 "
@@ -50,7 +50,7 @@ const SocialPart = () => {
             {t.register}
           </button>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 };
