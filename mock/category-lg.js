@@ -120,4 +120,22 @@ export const categoryLgContent = [
     imgHeight: 250,
     imgCustomStyles: { alignSelf: "flex-start" },
   },
+  {
+    name: "alimentoUmido",
+    title: "alimentoUmido",
+    description: "alimentoUmido",
+    styles: {
+      backgroundColor: "var(--stationery-category-bgc)",
+      flexDirection: "row",
+      paddingInline: "0.75rem",
+      paddingBlock: "unset",
+      gridRow: "span 2 / span 2",
+      gridColumn: "span 2 / span 2",
+    },
+    href: "/alimentoUmido",
+    imgSrc: "/images/category-img/stationery-category.webp",
+    imgWidth: 130,
+    imgHeight: 250,
+    imgCustomStyles: { alignSelf: "flex-start" },
+  },
 ];
