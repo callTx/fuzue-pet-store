@@ -4,12 +4,14 @@ import { MdOutlineToys } from "react-icons/md";
 import { RiHeartPulseLine, RiFireLine } from "react-icons/ri";
 import { AiOutlineHome, AiOutlinePercentage } from "react-icons/ai";
 import { BiFootball } from "react-icons/bi";
+import {PiBowlFoodDuotone} from "react-icons/pi";
 
 import { ImMobile } from "react-icons/im";
 import { FiMonitor, FiHeadphones } from "react-icons/fi";
 
 import { GiLargeDress } from "react-icons/gi";
-import { FaBaby, FaRedhat, FaBowlFood } from "react-icons/fa";
+import { FaBaby, FaRedhat } from "react-icons/fa";
+
 const menuItems = [
   // {
   //   category: "digital",
