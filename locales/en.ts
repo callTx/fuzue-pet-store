@@ -1,5 +1,5 @@
 const en: { [key: string]: string } = {
-  mainPage: "ZiShop Main Page",
+  mainPage: "Fuzuê Pet Store",
   search: "Search",
   login: "Login",
   logout: "Logout",
