@@ -233,7 +233,7 @@ const en: { [key: string]: string } = {
   warranty: "Warranty",
   addToCart: "ADD TO CART",
   stars: "Star",
-  price: "Product price",
+  price: "Preço",
   similarProducts: "You May Be Interested In",
   cart: "Shopping Cart",
   hi: "Hi!",
