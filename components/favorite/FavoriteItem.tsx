@@ -9,6 +9,7 @@ import { useLanguage } from "../../hooks/useLanguage";
 import { urlFor } from "../../lib/client";
 import ProductPrice from "../UI/ProductPrice";
 import { BsCartPlus } from "react-icons/bs";
+import {BsWhatsapp} from "react-icons/bs";
 import { HiOutlineTrash } from "react-icons/hi";
 import { IProduct } from "../../lib/types/products";
 import { useTheme } from "next-themes";
@@ -70,7 +71,7 @@ const FavoriteItem: React.FC<Props> = ({ product }) => {
           onClick={() => onAddToCart(product)}
         >
           <span className="ltr:mr-1 rtl:ml-1">
-            <BsCartPlus />
+            <BsWhatsapp />
           </span>
           {t.addToCart}
         </button>
