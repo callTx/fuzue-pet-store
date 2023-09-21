@@ -8,6 +8,7 @@ import { cartActions } from "../../store/cart-slice";
 import { IProduct } from "../../lib/types/products";
 import ProductPrice from "../UI/ProductPrice";
 import { toast } from "react-toastify";
+import {BsWhatsapp} from "react-icons/bs";
 
 interface Props {
   product: IProduct;
@@ -82,7 +83,7 @@ const CallToAction: React.FC<Props> = ({ product }) => {
         className="border-none bg-palette-primary/90 hover:bg-palette-primary/100 transition-colors duration-200 shadow-lg px-3 lg:px-8 py-4 text-palette-side flex items-center rounded-lg cursor-pointer  text-[12px] sm:text-base"
         onClick={addToCartHandler}
       >
-        <BsCartPlus style={{ fontSize: "1.2rem", margin: "0 0.4rem" }} />
+        <BsWhatsapp style={{ fontSize: "1.2rem", margin: "0 0.4rem" }} />
         {t.addToCart}
       </button>
     </div>
