@@ -231,7 +231,7 @@ const en: { [key: string]: string } = {
   ports: "Ports",
   ssd: "SSD Hard",
   warranty: "Warranty",
-  addToCart: "ADD TO CART",
+  addToCart: "Comprar agora",
   stars: "Star",
   price: "Preço",
   similarProducts: "You May Be Interested In",
