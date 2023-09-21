@@ -186,7 +186,7 @@ const en: { [key: string]: string } = {
   cheapest: "Cheapest",
   popular: "The Most Popular",
   expensive: "The Most Expensive",
-  details: "Product Details",
+  details: "Detalhes do Produto",
   back_camera: "Main Camera",
   battery: "Battery",
   front_camera: "Front Camera",
