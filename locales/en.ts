@@ -234,7 +234,7 @@ const en: { [key: string]: string } = {
   addToCart: "Comprar agora",
   stars: "Star",
   price: "Preço",
-  similarProducts: "You May Be Interested In",
+  similarProducts: "Você também pode se interessar",
   cart: "Shopping Cart",
   hi: "Hi!",
   loginExplanation:
